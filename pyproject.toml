@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "a"
+version = "0.1.0"
+description = "It appears there has been a consistent misunderstanding in our communication. The responses reveal a pattern where the nature of the assistance required was not clarified despite multiple attempts. The user consistently indicated a broad capability to provide support and assistance across a variety of tasks and topics, such as software development, technology guidance, and more. However, a specific query or task from the user's end was never articulated. In essence, the user communicated their readiness to offer detailed support in numerous areas, including but not limited to software application development, data analysis, web development, technology advice, and educational content, but did not specify a particular project or question that requires assistance. This cyclical communication underscores the importance of clear and precise queries when seeking assistance to ensure effective and targeted support."
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+pyjwt = "^2.1.0"
+bcrypt = "^3.2.0"
+fastapi = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
